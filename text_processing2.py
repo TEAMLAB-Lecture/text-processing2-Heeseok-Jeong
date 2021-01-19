@@ -31,26 +31,27 @@ def digits_to_words(input_string):
     digit_string = ""
     for c in input_string:
         if c == '0':
-            digit_string += "zero"
+            digit_string += "zero "
         elif c == '1':
-            digit_string += "one"
+            digit_string += "one "
         elif c == '2':
-            digit_string += "two"
+            digit_string += "two "
         elif c == '3':
-            digit_string += "three"
+            digit_string += "three "
         elif c == '4':
-            digit_string += "four"
+            digit_string += "four "
         elif c == '5':
-            digit_string += "five"
+            digit_string += "five "
         elif c == '6':
-            digit_string += "six"
+            digit_string += "six "
         elif c == '7':
-            digit_string += "seven"
+            digit_string += "seven "
         elif c == '8':
-            digit_string += "eight"
+            digit_string += "eight "
         elif c == '9':
-            digit_string += "nine"
-    
+            digit_string += "nine "
+    digital_string = digital_string.rstrip()
+
     return digit_string
 
 
