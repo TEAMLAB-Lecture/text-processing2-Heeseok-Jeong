@@ -50,7 +50,7 @@ def digits_to_words(input_string):
             digit_string += "eight "
         elif c == '9':
             digit_string += "nine "
-    digital_string = digital_string.rstrip()
+    digit_string = digit_string.rstrip()
 
     return digit_string
 
