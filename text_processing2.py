@@ -89,4 +89,5 @@ def to_camel_case(underscore_str):
     """
     camelcase_str = underscore_str.replace("_", " ").strip().title()
     camelcase_str = "".join(camelcase_str.split())
+    camelcase_str[0] = camelcase_str[0].lower()
     return camelcase_str
